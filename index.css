@@ -233,6 +233,88 @@ h1{
     position:absolute;
     animation-delay: 1100ms;
 }
+
+#capybara1 {
+    visibility: hidden;
+    height: 50%;
+    margin-left: 80%;
+    margin-top: -3%;
+    position:absolute;
+}
+
+#capybara2 {
+    visibility: hidden;
+    height: 50%;
+    margin-left: 10%;
+    margin-top: 24%;
+    position:absolute;
+}
+
+#capybara3 {
+    visibility: hidden;
+    height: 20%;
+    margin-left: 0%;
+    margin-top: 20%;
+    stroke-width:20px;
+    position:absolute;
+}
+
+#capybara4 {
+    visibility: hidden;
+    height: 50%;
+    margin-left: 7%;
+    margin-top: -15%;
+    position:absolute;
+}
+
+#capybara5 {
+    visibility: hidden;
+    height: 50%;
+    margin-left: 67%;
+    margin-top: 18%;
+    position:absolute;
+}
+
+#capybara6 {
+    visibility: hidden;
+    height: 20%;
+    stroke-width:10px;
+    margin-left: 73%;
+    margin-top: 40%;
+    position:absolute;
+}
+
+#capybara7 {
+    visibility: hidden;
+    height: 50%;
+    margin-left: -8%;
+    margin-top: 26%;
+    position:absolute;
+}
+
+#capybara8 {
+    visibility: hidden;
+    height: 50%;
+    margin-left: 83.5%;
+    margin-top: -16%;
+    position:absolute;
+}
+#capybara9 {
+    visibility: hidden;
+    height: 20%;
+    stroke-width:10px;
+    margin-left: 52%;
+    margin-top: 39%;
+    position:absolute;
+}
+#capybara10 {
+    visibility: hidden;
+    height: 50%;
+    margin-left: 35%;
+    margin-top: 26%;
+    position:absolute;
+}
+
 #pine1 {
     visibility:hidden;
     height: 60%;

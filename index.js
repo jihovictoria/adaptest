@@ -20,6 +20,16 @@ const bush8 = document.getElementById("bush8");
 const tbush1 = document.getElementById("tbush1");
 const tbush2 = document.getElementById("tbush2");
 const tbush3 = document.getElementById("tbush3");
+const capybara1 = document.getElementById("capybara1");
+const capybara2 = document.getElementById("capybara2");
+const capybara3 = document.getElementById("capybara3");
+const capybara4 = document.getElementById("capybara4");
+const capybara5 = document.getElementById("capybara5");
+const capybara6 = document.getElementById("capybara6");
+const capybara7 = document.getElementById("capybara7");
+const capybara8 = document.getElementById("capybara8");
+const capybara9 = document.getElementById("capybara9");
+const capybara10 = document.getElementById("capybara10");
 
 const pine1 = document.getElementById("pine1");
 const pine2 = document.getElementById("pine2");
@@ -47,6 +57,13 @@ function TransitionPage() {
     questionBox.style.display="inline";
 }
 
+var x = 0;
+const capybaras = [capybara1, capybara2, capybara3, capybara4, capybara5, capybara6, capybara7, capybara8, capybara9, capybara10];
+function AddCapybara() {
+    capybaras[x].style.visibility="visible";
+    x++;
+}
+
 function LevelTwo() {
     // Hiding all bushes from previous level
     bush1.style.display="none";
@@ -61,6 +78,9 @@ function LevelTwo() {
     tbush2.style.display="none";
     tbush3.style.display="none";
     // Hiding all capybaras from previous level
+    for(i=0;i<capybaras.length;i++){
+        capybaras[i].style.display="none";
+    }
 
     //Making visible all pine trees for next level
     pine1.style.visibility="visible";
@@ -91,3 +111,4 @@ usHistory.addEventListener("click", TransitionPage);
 questionBox.addEventListener("click", TransitionPage);
 level2.addEventListener("click", LevelTwo);
 level3.addEventListener("click", LevelThree);
+correct.addEventListener("click", AddCapybara);
