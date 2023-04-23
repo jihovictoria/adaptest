@@ -1,0 +1,166 @@
+body {
+    height:100%;
+    overflow:hidden;
+}
+
+#questionbox {
+    visibility:hidden;
+    padding: 10px;
+    border-style: dotted;
+    margin-left:30%;
+    width: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+@keyframes showBox {
+    to {
+      visibility: visible;
+    }
+  }
+
+#subjects {
+    visibility:hidden;
+    width: 80%;
+    height: 40%;
+    margin-left:10%;
+    top: 35%;
+    position:absolute;
+    animation: showBox 0s ease-in 3s;
+    animation-fill-mode: forwards;
+}
+
+#subjects > button {
+    width: 20%;
+    margin: 2.3%;
+    height: 80%;
+    border-style:dotted;
+    background-color:transparent;
+    visibility:inherit;
+}
+
+h1{
+    margin-top:0px;
+    text-align:center;
+    font-family:Palatino Linotype;
+}
+
+#title{
+    margin-left: 25%;
+    height: 30%;
+    width: 50%; 
+    top: 50%;
+    transform: translateY(-50%);
+    position:absolute;
+    animation: moveTitle 1s ease-in 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveTitle {
+    to {
+        top:20%;
+    }
+  }
+
+.cls-1 {
+    fill:transparent;
+    stroke:black;
+    stroke-width: 5px;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: dash 2s linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;  
+}
+
+#apaptest2 {
+    animation-delay: 100ms;
+}
+#apaptest3 {
+    animation-delay: 200ms;
+}
+#apaptest4 {
+    animation-delay: 300ms;
+}
+#apaptest5 {
+    animation-delay: 400ms;
+}
+#apaptest6 {
+    animation-delay: 500ms;
+}
+#apaptest7 {
+    animation-delay: 600ms;
+}
+#apaptest8 {
+    animation-delay: 700ms;
+}
+#apaptest9 {
+    animation-delay: 800ms;
+}
+#apaptest10 {
+    animation-delay: 900ms;
+}
+#apaptest11 {
+    animation-delay: 1000ms;
+}
+#apaptest12 {
+    animation-delay: 1100ms;
+}
+#apaptest13 {
+    animation-delay: 1200ms;
+}
+#apaptest14 {
+    animation-delay: 1300ms;
+}
+#apaptest15 {
+    animation-delay: 1400ms;
+}
+#apaptest16 {
+    animation-delay: 1500ms;
+}
+#apaptest17 {
+    animation-delay: 1600ms;
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 1500;
+      }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+#bush1 {
+    visibility:hidden;
+    height:80%;
+    margin-left: 8%;
+    position:absolute;
+}
+
+#bush2 {
+    visibility:hidden;
+    height: 80%;
+    margin-left:70%;
+    margin-top: -20%;
+    position:absolute;
+}
+
+#bush3 {
+    visibility:hidden;
+    height: 80%;
+    margin-top: 15%;
+    position:absolute;
+}
+
+.cls-2 {
+    fill:transparent;
+    stroke:black;
+    stroke-width: 5px;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: dash 2s linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;  
+}
