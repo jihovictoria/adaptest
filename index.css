@@ -1,10 +1,20 @@
+html {
+    position: fixed;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
 body {
     height:100%;
+    width:100%;
     overflow:hidden;
 }
 
 #questionbox {
-    visibility:hidden;
+    display:none;
     padding: 10px;
     border-style: dotted;
     margin-left:30%;
@@ -12,6 +22,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
+    z-index: 2;
 }
 
 @keyframes showBox {
@@ -133,26 +144,117 @@ h1{
   }
 
 #bush1 {
-    visibility:hidden;
+    visibility: hidden;
     height:80%;
-    margin-left: 8%;
+    margin-left: 7%;
+    margin-top:5%;
     position:absolute;
+    animation-delay: 100ms;
 }
 
 #bush2 {
-    visibility:hidden;
+    visibility: hidden;
     height: 80%;
     margin-left:70%;
     margin-top: -20%;
     position:absolute;
+    animation-delay: 200ms;
 }
 
 #bush3 {
-    visibility:hidden;
+    visibility: hidden;
+    height: 80%;
+    margin-top: -21%;
+    margin-left: -10%;
+    position:absolute;
+    animation-delay: 300ms;
+}
+#bush4 {
+    visibility: hidden;
+    height: 80%;
+    margin-top:5%;
+    margin-left: 77%;
+    position:absolute;
+    animation-delay: 400ms;
+}
+#bush5 {
+    visibility: hidden;
     height: 80%;
     margin-top: 15%;
+    margin-left: 73%;
+    position:absolute;
+    animation-delay: 500ms;
+}
+#bush6 {
+    visibility: hidden;
+    height: 80%;
+    margin-top: -9%;
+    margin-left:-9%;
+    position:absolute;
+    animation-delay: 600ms;
+}
+#bush7 {
+    visibility: hidden;
+    height: 80%;
+    margin-top: 18%;
+    margin-left: 20%;
+    position:absolute;
+    animation-delay: 700ms;
+}
+#bush8 {
+    visibility: hidden;
+    height: 80%;
+    margin-left: 50%;
+    margin-top: 17%;
+    position:absolute;
+    animation-delay: 800ms;
+}
+#tbush1 {
+    visibility: hidden;
+    height: 80%;
+    margin-left:-1%;
+    margin-top: -7%;
+    position:absolute;
+    animation-delay: 900ms;
+}
+#tbush2 {
+    visibility: hidden;
+    height: 80%;
+    margin-left:-12%;
+    margin-top: 15%;
+    position:absolute;
+    animation-delay: 1000ms;
+}
+#tbush3 {
+    visibility: hidden;
+    height: 80%;
+    margin-left: 61%;
+    margin-top: 2%;
+    position:absolute;
+    animation-delay: 1100ms;
+}
+#pine1 {
+    visibility:hidden;
+    height: 80%;
+    margin-left:0%;
+    margin-top:-5%;
     position:absolute;
 }
+#pine2 {
+    visibility:hidden;
+    height: 80%;
+    margin-left:0%;
+    margin-top:15%;
+    position:absolute;
+}
+#pine3 {
+    visibility:hidden;
+    height: 80%;
+    margin-left:70%;
+    margin-top:0%;
+    position:absolute;
+}
+
 
 .cls-2 {
     fill:transparent;
@@ -160,7 +262,28 @@ h1{
     stroke-width: 5px;
     stroke-dasharray: 1500;
     stroke-dashoffset: 1500;
-    animation: dash 2s linear;
+    animation: dash 5s linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;  
+}
+
+.cls-3 {
+    fill:transparent;
+    stroke:black;
+    stroke-width: 5px;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: dash 5s linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;  
+}
+.cls-4 {
+    fill:transparent;
+    stroke:black;
+    stroke-width: 5px;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: dash 5s linear;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;  
 }
