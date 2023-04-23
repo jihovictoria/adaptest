@@ -7,7 +7,7 @@ const questionBox = document.getElementById("questionbox");
 
 const level2 = document.getElementById("nextLevel");
 const correct = document.getElementById("correct");
-
+const level3 = document.getElementById("lastLevel");
 
 const bush1 = document.getElementById("bush1");
 const bush2 = document.getElementById("bush2");
@@ -24,6 +24,12 @@ const tbush3 = document.getElementById("tbush3");
 const pine1 = document.getElementById("pine1");
 const pine2 = document.getElementById("pine2");
 const pine3 = document.getElementById("pine3");
+const layered1 = document.getElementById("layered1");
+const layered2 = document.getElementById("layered2");
+const layered3 = document.getElementById("layered3");
+
+const jungle = document.getElementById("jungle");
+const jungle2 = document.getElementById("jungle2");
 
 function TransitionPage() {
     subjects.style.display="none";
@@ -60,6 +66,23 @@ function LevelTwo() {
     pine1.style.visibility="visible";
     pine2.style.visibility="visible";
     pine3.style.visibility="visible";
+    layered1.style.visibility="visible";
+    layered2.style.visibility="visible";
+    layered3.style.visibility="visible";
+}
+
+function LevelThree() {
+    //Hiding all trees from previous level
+    pine1.style.display="none";
+    pine2.style.display="none";
+    pine3.style.display="none";
+    layered1.style.display="none";
+    layered2.style.display="none";
+    layered3.style.display="none";
+
+    //Making visible all trees for next level
+    jungle.style.visibility="visible";
+    jungle2.style.visibility="visible";
 }
 
 calculusII.addEventListener("click", TransitionPage);
@@ -67,3 +90,4 @@ biology.addEventListener("click", TransitionPage);
 usHistory.addEventListener("click", TransitionPage);
 questionBox.addEventListener("click", TransitionPage);
 level2.addEventListener("click", LevelTwo);
+level3.addEventListener("click", LevelThree);

@@ -235,26 +235,64 @@ h1{
 }
 #pine1 {
     visibility:hidden;
-    height: 80%;
-    margin-left:0%;
-    margin-top:-5%;
+    height: 60%;
+    margin-left:5%;
+    margin-top:-9%;
     position:absolute;
 }
 #pine2 {
     visibility:hidden;
-    height: 80%;
-    margin-left:0%;
-    margin-top:15%;
+    height: 60%;
+    margin-left:16%;
+    margin-top:20%;
     position:absolute;
 }
 #pine3 {
     visibility:hidden;
-    height: 80%;
-    margin-left:70%;
+    height: 60%;
+    margin-left:73%;
+    margin-top:10%;
+    position:absolute;
+}
+
+#layered1 {
+    visibility:hidden;
+    height: 60%;
+    margin-left:80%;
     margin-top:0%;
     position:absolute;
 }
 
+#layered2 {
+    visibility:hidden;
+    height: 60%;
+    margin-left:85%;
+    margin-top:30%;
+    position:absolute;
+}
+#layered3 {
+    visibility:hidden;
+    height: 60%;
+    margin-left:0%;
+    margin-top:20%;
+    position:absolute;
+}
+
+#jungle {
+    visibility:hidden;
+    height: 100%;
+    margin-left:-16%;
+    margin-top:8%;
+    position:absolute;
+}
+
+#jungle2 {
+    visibility:hidden;
+    height: 100%;
+    margin-left:55%;
+    margin-top:8%;
+    position:absolute;
+}
 
 .cls-2 {
     fill:transparent;
@@ -278,6 +316,39 @@ h1{
     animation-fill-mode: forwards;  
 }
 .cls-4 {
+    fill:transparent;
+    stroke:black;
+    stroke-width: 5px;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: dash 5s linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;  
+}
+
+.cls-5 {
+    fill:transparent;
+    stroke:black;
+    stroke-width: 5px;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: dash 5s linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;  
+}
+
+.cls-6 {
+    fill:transparent;
+    stroke:black;
+    stroke-width: 5px;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: dash 5s linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;  
+}
+
+.cls-7 {
     fill:transparent;
     stroke:black;
     stroke-width: 5px;
