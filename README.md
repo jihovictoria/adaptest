@@ -1,4 +1,4 @@
-# adaptiveIQ
+# Adaptest
 Project for LA Hacks 2023
 
 Project Overview:
